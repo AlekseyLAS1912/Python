@@ -10,8 +10,3 @@ for i in range(2, len(numbers) + 1):
         primes.append(i)
 print('Primes: ', primes)
 print('Not primes: ', not_primes)
-
-
-        #     print(f'{i}', True)
-        # else:
-        #     print(f'{i}', False)
