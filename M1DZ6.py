@@ -3,8 +3,7 @@ print(my_dict)
 print(my_dict['Петя'])
 my_dict.update({'Ваня':2005, 'Кирилл': 1996})
 print(my_dict)
-del my_dict ['Петя']
-print(my_dict.get('Петя'))
+print(my_dict.pop('Петя'))
 print(my_dict)
 
 my_set = {1, 3, 7, 8.2, 7, 1, 345, 345, True, 'Айсберг'}
